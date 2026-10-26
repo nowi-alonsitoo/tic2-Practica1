@@ -9,3 +9,19 @@
     margin: 25px auto;
     border-radius: 10px;
 }
+
+.rayita{
+    width: 400px;
+    height: 2px;
+    background-color: #0d6efd;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.rayon{
+    width: 200px;
+    height: 1px;
+    background-color: #0d6efd;
+    margin: 60px auto;
+    border-radius: 10px;
+}
