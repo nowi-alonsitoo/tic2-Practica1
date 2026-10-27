@@ -14,17 +14,14 @@
     <body class="fto">
         
       <ul class="nav nav-pills justify-content-center fs-10 mt-3">
-        <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./pag1.html">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./pag1.html">OPCIONES</a>
+              <a class="nav-link active" href="./pag2.html">OPCIONES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pag2.html">SALIDAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pag3.html">pag3</a>
+              <a class="nav-link" href="./pag3.html">SALIDAS</a>
             </li>
       </ul>
 
@@ -45,7 +42,14 @@
             <div class="card-body">
               <h5 class="card-title">Ingeniería Aeroespacial</h5>
               <p class="card-text">Se dedica al diseño y desarrollo de aviones, cohetes y otras tecnologías aeroespaciales.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+
+              <a href="#accordionExample" 
+              class="btn btn-primary"
+              onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('collapseOne')).show()">
+              Ver más
+              </a>
+
+              <a href="https://aero.uvigo.es/es/estudios/grado-en-ingenieria-aeroespacial" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visitar</a>
             </div>
           </div>
       
@@ -54,8 +58,14 @@
             <img src="./img1/f1.jpg" class="card-img-top" alt="Imagen 2">
             <div class="card-body">
               <h5 class="card-title">Ingeniería Mecánica</h5>
-              <p class="card-text">Descripción de la segunda tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <p class="card-text">Se dedica al diseño y construcción de infraestructuras como puentes, carreteras, túneles y presas.</p>
+              <a href="#accordionExample" 
+              class="btn btn-primary"
+              onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('collapseTwo')).show()">
+              Ver más
+              </a>
+
+              <a href="https://estudos.udc.es/es/study/start/730G03V01" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visitar</a>
             </div>
           </div>
       
@@ -64,8 +74,14 @@
             <img src="./img1/civil.jpg" class="card-img-top" alt="Imagen 3">
             <div class="card-body">
               <h5 class="card-title">Ingeniería Civil</h5>
-              <p class="card-text">Descripción de la tercera tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <p class="card-text">Se dedica al diseño, fabricación y mantenimiento de máquinas, motores y sistemas mecánicos.</p>
+              <a href="#accordionExample" 
+              class="btn btn-primary"
+              onclick="bootstrap.Collapse.getOrCreateInstance(document.getElementById('collapseThree')).show()">
+              Ver más
+              </a>
+
+              <a href="https://share.google/jWv1yL9YozBgXuQWV" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visitar</a>
             </div>
           </div>
       
@@ -74,65 +90,51 @@
       
 
 
+          <div class="rayon"></div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div class="rayon"></div>
-
-
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion" id="accordion1">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-      </div>
+
+
 
 
 
