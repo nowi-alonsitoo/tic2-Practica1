@@ -25,3 +25,10 @@
     margin: 60px auto;
     border-radius: 10px;
 }
+
+.back {
+    background-image: url("fondox1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
