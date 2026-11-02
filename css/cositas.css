@@ -27,8 +27,33 @@
 }
 
 .back {
-    background-image: url("fondox1.jpg");
+    background-image: url("top.jpg");
     background-size: cover;
     background-position: center;
     color: white;
   }
+
+  
+.table-responsive {
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.table-responsive {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e3f2fd;
+    transition: background-color 0.2s ease;
+}
+
+.cristal {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.212);
+    border-radius: 15px;
+    width: 30%;
+    margin: 0 auto;
+}
