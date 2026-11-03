@@ -13,8 +13,8 @@
 .rayita{
     width: 400px;
     height: 2px;
-    background-color: #0d6efd;
-    margin: 15px auto;
+    background-color: #3a3a3ac0;
+    margin: 30px auto;
     border-radius: 10px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .back {
-    background-image: url("top.jpg");
+    background-image: url("./top.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -56,4 +56,38 @@
     border-radius: 15px;
     width: 30%;
     margin: 0 auto;
+}
+
+
+.nav-pills .nav-link {
+    color: #000000c0;
+    background-color: transparent;
+}
+
+
+
+.nav-pills .nav-link.active {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+
+.supeco {
+    color: #ffffff;
+    background-color: rgba(41, 41, 41, 0.466);
+}
+
+
+.card .btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
 }
