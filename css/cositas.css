@@ -58,6 +58,15 @@
     margin: 0 auto;
 }
 
+.cristaly {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.638);
+    border-radius: 15px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
 
 .nav-pills .nav-link {
     color: #000000c0;
@@ -90,4 +99,27 @@
 .card .btn-primary:hover {
     background-color: rgba(0, 0, 0, 0.63);
     color: white;
+}
+
+.backindex {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+.video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
 }
