@@ -20,103 +20,414 @@
         </video>
         
         
-        <div class="contenido">
+ 
+      <ul class=" cristal nav nav-pills justify-content-center fs-10 mt-3">
+            <li class="nav-item">
+              <a class="nav-link " href="./pag1.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./pag2.html">OPCIONES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pag3.html">SALIDAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link peter" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">MENU</a>
+            </li>
 
-            <ul class=" cristal nav nav-pills justify-content-center fs-10 mt-3">
-                <li class="nav-item">
-                  <a class="nav-link " href="./pag1.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="./pag2.html">OPCIONES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pag3.html">SALIDAS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link peter" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">MENU</a>
-                </li>
-    
-            </ul>
-
+      </ul>
 
 
+
+
+        
+      <div class="bryan offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+          <div class="offcanvas-header">
+              <h5 class="offcanvas-title fw-bold" id="offcanvasRightLabel">MI MENÚ</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+
+              <a href="./index.html" class="btn btn-dark w-100 mb-4">
+                  VOLVER AL MENÚ PRINCIPAL
+              </a>
+
+              <hr>
+
+              <h6 class="fw-bold mb-3">SOBRE ESTE PROYECTO</h6>
+              <p class="small">
+                  Una web creada para explorar, comparar y conocer diferentes
+                  grados universitarios y sus posibilidades profesionales.
+              </p>
+
+              <hr>
+
+              <h6 class="fw-bold mb-3">HERRAMIENTAS UTILIZADAS</h6>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge text-bg-dark">HTML5</span>
+                  <span class="badge text-bg-dark">CSS3</span>
+                  <span class="badge text-bg-dark">Bootstrap 5</span>
+                  <span class="badge text-bg-dark">ChatGPT</span>
+                  <span class="badge text-bg-dark">Copilot</span>
+              </div>
+
+              <hr>
+
+              <h6 class="fw-bold mb-3">FUENTES DE INFORMACIÓN</h6>
+
+              <div class="d-grid gap-2">
+                  <a href="https://www.udc.gal/" target="_blank" rel="noopener noreferrer">Universidade da Coruña</a>
+                  <a href="https://www.uvigo.gal/" target="_blank" rel="noopener noreferrer">Universidade de Vigo</a>
+                  <a href="https://ciug.gal/" target="_blank" rel="noopener noreferrer">CIUG ↗</a>
+                  <a href="https://www.universidades.gob.es/" target="_blank" rel="noopener noreferrer">Ministerio de Universidades</a>
+              </div>
+
+              <hr>
+
+              <h6 class="fw-bold mb-3">CRÉDITOS Y AGRADECIMIENTOS</h6>
+              <p class="small">
+                  Se han utilizado herramientas de inteligencia artificial como
+                  ChatGPT y Microsoft Copilot como apoyo durante el desarrollo
+                  y la organización de los contenidos de este proyecto.
+              </p>
+              <p class="small">
+                  Las imágenes y recursos externos pertenecen a sus respectivos
+                  autores y titulares.
+              </p>
+
+              <hr>
+
+              <div class="text-center mt-4">
+                  <h6 class="fw-bold">DISEÑA TU PRÓXIMO PASO</h6>
+                  <p class="small text-muted mb-1">TIC 2 º Bachillerato</p>
+              </div>
+
+          </div>
+      </div>
 
             <! <div class="rayita"></div> >
 
+      
+        <h1 class="display-5 fw-bold text-black manolo">
+            Comparativa de tres grados universitarios</h1>
+
+       
+          
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover align-middle">
+
+                <caption>
+                    · Comparación de tres grados universitarios de ingeniería.
+                    Datos de las universidades UDC y UVigo. Consulta: 08/11/2026.
+                </caption>
+
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Aspecto</th>
+                        <th scope="col">Ingeniería Civil</th>
+                        <th scope="col">Ingeniería Aeroespacial</th>
+                        <th scope="col">Ingeniería Mecánica</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Nombre oficial</th>
+                        <td>Grado en Ingeniería Civil</td>
+                        <td>Grado en Ingeniería Aeroespacial</td>
+                        <td>Grado en Ingeniería Mecánica</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Tipo y universidad</th>
+                        <td>Grado universitario. Universidade da Coruña (UDC).</td>
+                        <td>Grado universitario. Universidade de Vigo (UVigo).</td>
+                        <td>Grado universitario. Universidade da Coruña (UDC).</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Centro y localidad</th>
+                        <td>Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos. Campus de Elviña, A Coruña.</td>
+                        <td>Escuela de Ingeniería Aeronáutica y del Espacio. Campus Norte, Ourense.</td>
+                        <td>Escuela Politécnica de Ingeniería de Ferrol. Campus de Esteiro, Ferrol.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Duración y créditos</th>
+                        <td>4 cursos académicos (240 ECTS).</td>
+                        <td>4 cursos académicos (240 ECTS).</td>
+                        <td>4 cursos académicos (240 ECTS).</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Modalidad</th>
+                        <td>Presencial.</td>
+                        <td>Presencial.</td>
+                        <td>Presencial.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Acceso</th>
+                        <td>Bachillerato y superación de la PAU. También existen otras vías oficiales de acceso.</td>
+                        <td>Bachillerato y superación de la PAU. También se puede acceder desde un ciclo superior de FP u otras vías oficiales.</td>
+                        <td>Bachillerato y superación de la PAU. También existen otras vías oficiales de acceso.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Admisión y nota de corte</th>
+                        <td>Preinscripción universitaria mediante la CiUG. Nota de corte: no disponible como referencia confirmada para esta nueva titulación.</td>
+                        <td>Preinscripción mediante la CiUG. Nota de corte 2025/2026: 12,130.</td>
+                        <td>Preinscripción mediante la CiUG. Nota de corte 2025/2026: 9,254.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Formación principal</th>
+                        <td>Cálculo y diseño de infraestructuras, construcción, estructuras, hidráulica, transportes y planificación urbana.</td>
+                        <td>Matemáticas, física, aerodinámica, mecánica de vuelo, aeronaves, motores y tecnología espacial.</td>
+                        <td>Mecánica, estructuras, máquinas, materiales, electricidad, electrónica, energía, diseño y fabricación industrial.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Título obtenido</th>
+                        <td>Graduado/a en Ingeniería Civil por la UDC.</td>
+                        <td>Graduado/a en Ingeniería Aeroespacial por la UVigo.</td>
+                        <td>Graduado/a en Ingeniería Mecánica por la UDC.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Salidas profesionales</th>
+                        <td>Ingeniería de obras públicas, construcción, gestión de infraestructuras y empresas de transporte o agua.</td>
+                        <td>Diseño aeronáutico, fabricación de aeronaves, sistemas espaciales e investigación aeroespacial.</td>
+                        <td>Diseño mecánico, automoción, robótica, fabricación industrial y mantenimiento de instalaciones.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Fuentes oficiales</th>
+                        <td>
+                            <a href="https://www.udc.gal/export/sites/udc/_galeria_down/ensino/propostasmod/2627/Genxcivil.pdf_2063069294.pdf" target="_blank" rel="noopener noreferrer">Memoria del Grado en Ingeniería Civil (UDC)</a><br>
+                            <a href="https://www.udc.gal/es/futuros_estudantes/orientadores/visita-as-facultades-escolas/" target="_blank" rel="noopener noreferrer">Centro y campus (UDC)</a>
+                        </td>
+                        <td>
+                            <a href="https://aero.webs.uvigo.gal/es/estudios/grado-en-ingenieria-aeroespacial/descripcion-del-titulo" target="_blank" rel="noopener noreferrer">Descripción del título (UVigo)</a><br>
+                            <a href="https://aero.webs.uvigo.gal/es/estudiantes/matricula" target="_blank" rel="noopener noreferrer">Matrícula y nota de corte (UVigo)</a>
+                        </td>
+                        <td>
+                            <a href="https://estudos.udc.es/es/study/start/730G03V01" target="_blank" rel="noopener noreferrer">Información del grado (UDC)</a><br>
+                            <a href="https://ciug.gal/PDF/2025/ACCESO/notas_de_corte_3_ultimos_cursos.pdf" target="_blank" rel="noopener noreferrer">Notas de corte (CiUG)</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
 
-
-          <div class="table-responsive">
-                <table class="table table-striped table-bordered
-                              table-hover align-middle" >
-                    <caption>
-                        Comparación de DAM, DAW y ASIR.
-                          Fuente general: TodoFP, Ministerio de Educación.
-                    </caption>
-
-                    <thead class="table-dark">
-                        <tr>
-                            <th scope="col">Aspecto</th>
-                            <th scope="col">DAM</th>
-                            <th scope="col">DAW</th>
-                            <th scope="col">ASIR</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <th scope="row">Nombre carrera</th>
-                            <td>Desarrollo de Aplicaciones Multiplataforma</td>
-                            <td>Desarrollo de Aplicaciones Web</td>
-                            <td>Administración de Sistemas Informáticos en Red</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Tipo</th>
-                            <td>FP de Grado Superior</td>
-                            <td>FP de Grado Superior</td>
-                            <td>FP de Grado Superior</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Duración oficial</th>
-                            <td>2.000 horas</td>
-                            <td>2.000 horas</td>
-                            <td>2.000 horas</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Acceso</th>
-                            <td>Bachillerato u otras vías oficiales de acceso</td>
-                            <td>Bachillerato u otras vías oficiales de acceso</td>
-                            <td>Bachillerato u otras vías oficiales de acceso</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Formación principal</th>
-                            <td>Programación, bases de datos y aplicaciones</td>
-                            <td>Desarrollo web, interfaces y servidores</td>
-                            <td>Sistemas operativos, redes y seguridad</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Título obtenido</th>
-                            <td>Técnico Superior en DAM</td>
-                            <td>Técnico Superior en DAW</td>
-                            <td>Técnico Superior en ASIR</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Salidas orientativas</th>
-                            <td>Desarrollador de aplicaciones</td>
-                            <td>Programador web</td>
-                            <td>Administrador de sistemas y redes</td>
-                        </tr>
-                    </tbody>
-                </table>
-          </div>
+        <div class="rayon"></div>
 
 
+        <section class="container my-5">
+
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold manolo">
+                    Conoce cada grado
+                </h2>
+                <p class="lead text-black-50 ">
+                    Descubre qué ofrece cada ingeniería antes de elegir tu futuro.
+                </p>
+            </div>
+
+            <div class="accordion acordeon-grados" id="acordeonGrados">
+
+                <!-- puentes-->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#civil"
+                            aria-expanded="false"
+                            aria-controls="civil">
+
+                            <span class="numero-acordeon">01</span>
+                            <span>
+                                <strong>Ingeniería Civil</strong>
+                                <small>Universidade da Coruña · A Coruña</small>
+                            </span>
+
+                        </button>
+                    </h2>
+
+                    <div id="civil" class="accordion-collapse collapse"
+                        data-bs-parent="#acordeonGrados">
+
+                        <div class="accordion-body">
+
+                            <h5>Descripción</h5>
+                            <p>
+                                Esta ingeniería se centra en el diseño, construcción
+                                y mantenimiento de infraestructuras como carreteras,
+                                puentes, edificios y obras hidráulicas. También estudia
+                                cómo planificar y gestionar proyectos relacionados
+                                con el territorio y los transportes.
+                            </p>
+
+                            <hr>
+
+                            <h5>Competencias útiles</h5>
+                            <ul>
+                                <li>Diseño y planificación de infraestructuras.</li>
+                                <li>Resolución de problemas técnicos y estructurales.</li>
+                                <li>Conocimientos de materiales y construcción.</li>
+                            </ul>
+
+                            <hr>
+
+                            <h5>Ventajas</h5>
+                            <ul>
+                                <li><strong>Variedad de proyectos:</strong> permite participar en obras muy diferentes, desde puentes hasta sistemas de abastecimiento.</li>
+                                <li><strong>Impacto social:</strong> contribuye a crear y mejorar infraestructuras necesarias para la sociedad.</li>
+                            </ul>
+
+                            <hr>
+
+                            <h5>Aspectos que conviene valorar</h5>
+                            <ul class="mb-0">
+                                <li>Requiere una buena base de matemáticas y física.</li>
+                                <li>Algunos trabajos pueden implicar desplazamientos y visitas a obras.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- volar parriba -->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#aeroespacial"
+                            aria-expanded="false"
+                            aria-controls="aeroespacial">
+
+                            <span class="numero-acordeon">02</span>
+                            <span>
+                                <strong>Ingeniería Aeroespacial</strong>
+                                <small>Universidade de Vigo · Ourense</small>
+                            </span>
+
+                        </button>
+                    </h2>
+
+                    <div id="aeroespacial" class="accordion-collapse collapse"
+                        data-bs-parent="#acordeonGrados">
+
+                        <div class="accordion-body">
+
+                            <h5>Descripción</h5>
+                            <p>
+                                Esta carrera estudia el diseño, desarrollo y
+                                funcionamiento de aeronaves y vehículos espaciales.
+                                Combina conocimientos de física, matemáticas,
+                                mecánica y tecnología para resolver problemas
+                                relacionados con la aviación y el espacio.
+                            </p>
+
+                            <hr>
+
+                            <h5>Competencias útiles</h5>
+                            <ul>
+                                <li>Diseño y análisis de sistemas aeronáuticos.</li>
+                                <li>Conocimientos de aerodinámica y mecánica de fluidos.</li>
+                                <li>Resolución de problemas tecnológicos complejos.</li>
+                            </ul>
+
+                            <hr>
+
+                            <h5>Ventajas</h5>
+                            <ul>
+                                <li><strong>Innovación tecnológica:</strong> permite trabajar en proyectos relacionados con la aviación y la exploración espacial.</li>
+                                <li><strong>Proyección internacional:</strong> sus conocimientos pueden aplicarse en empresas de distintos países.</li>
+                            </ul>
+
+                            <hr>
+
+                            <h5>Aspectos que conviene valorar</h5>
+                            <ul class="mb-0">
+                                <li>Tiene una importante carga de matemáticas, física y cálculo.</li>
+                                <li>Es un sector especializado en el que puede ser útil completar la formación con estudios adicionales.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- pala mecanica -->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#mecanica"
+                            aria-expanded="false"
+                            aria-controls="mecanica">
+
+                            <span class="numero-acordeon">03</span>
+                            <span>
+                                <strong>Ingeniería Mecánica</strong>
+                                <small>Universidade da Coruña · Ferrol</small>
+                            </span>
+
+                        </button>
+                    </h2>
+
+                    <div id="mecanica" class="accordion-collapse collapse"
+                        data-bs-parent="#acordeonGrados">
+
+                        <div class="accordion-body">
+
+                            <h5>Descripción</h5>
+                            <p>
+                                El grado en Ingeniería Mecánica se centra en el diseño,
+                                fabricación y mantenimiento de máquinas, motores y
+                                sistemas industriales. Durante la carrera se estudian
+                                materias como mecánica, materiales, energía y estructuras.
+                            </p>
+
+                            <hr>
+
+                            <h5>Competencias útiles</h5>
+                            <ul>
+                                <li>Diseño y análisis de máquinas y mecanismos.</li>
+                                <li>Resolución de problemas técnicos e industriales.</li>
+                                <li>Conocimientos de materiales, energía y fabricación.</li>
+                            </ul>
+
+                            <hr>
+
+                            <h5>Ventajas</h5>
+                            <ul>
+                                <li><strong>Amplias aplicaciones:</strong> sus conocimientos se utilizan en sectores como la automoción, la energía y la fabricación.</li>
+                                <li><strong>Formación versátil:</strong> permite desarrollar trabajos relacionados con el diseño, la producción y el mantenimiento.</li>
+                            </ul>
+
+                            <hr>
+
+                            <h5>Aspectos que conviene valorar</h5>
+                            <ul class="mb-0">
+                                <li>Necesita una buena base de matemáticas, física y tecnología.</li>
+                                <li>Incluye contenidos técnicos y cálculos que requieren práctica y constancia.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
 
 

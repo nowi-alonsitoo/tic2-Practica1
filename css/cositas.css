@@ -10,28 +10,17 @@
     border-radius: 10px;
 }
 
-.rayita{
-    width: 400px;
-    height: 2px;
-    background-color: #3a3a3ac0;
-    margin: 30px auto;
-    border-radius: 10px;
-}
+
 
 .rayon{
     width: 200px;
     height: 1px;
-    background-color: #0d6efd;
+    background-color: #0f0f10b2;
     margin: 60px auto;
     border-radius: 10px;
 }
 
-.back {
-    background-image: url("./top.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-  }
+
 
   
 .table-responsive {
@@ -39,12 +28,10 @@
     margin: 30px auto;
     border-radius: 15px;
     overflow: hidden;
-}
-
-
-.table-responsive {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+
+
 
 .table-hover tbody tr:hover {
     background-color: #e3f2fd;
@@ -54,8 +41,11 @@
 .cristal {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.212);
     border-radius: 15px;
-    width: 30%;
+    width: 33%;
+    max-width: 850px;
+    min-width: 350px;
     margin: 0 auto;
+    padding: 8px 15px;
 }
 
 .cristaly {
@@ -74,11 +64,7 @@
     background-color: transparent;
 }
 
-.back .peter:hover {
-    background-color: rgba(0, 0, 0, 0);
-    color: #000000c0;
-    
-}
+
 
 .peter {
     background-color: transparent ;
@@ -144,7 +130,8 @@
     position: relative;
     min-height: 100vh;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     color: white;
 }
 
@@ -158,10 +145,6 @@
     z-index: -1;
 }
 
-.contenido2 {
-    position: relative;
-    z-index: 1;
-}
 
 .bryan {
     box-shadow: 0 4px 12px rgba(214, 214, 214, 0.671);
@@ -181,7 +164,259 @@
     box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-offcanvas-title{
 
-    
+
+
+
+.acordeon-grados {
+    width: 85%;
+    margin: auto;
+}
+
+
+.acordeon-grados .accordion-item {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.acordeon-grados .accordion-button {
+    background-color: rgba(255, 255, 255, 0.93);
+    color: #222;
+    padding: 22px 25px;
+    box-shadow: none;
+}
+
+
+.acordeon-grados .accordion-button strong {
+    display: block;
+    font-size: 19px;
+}
+
+
+.acordeon-grados .accordion-button small {
+    display: block;
+    color: #777;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+
+.numero-acordeon {
+    font-size: 22px;
+    font-weight: bold;
+    color: #777;
+    margin-right: 20px;
+}
+
+
+.acordeon-grados .accordion-body {
+    padding: 25px 30px;
+    color: #333;
+    background-color: white;
+}
+
+.acordeon-grados .accordion-body h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+
+.acordeon-grados .accordion-body p,
+.acordeon-grados .accordion-body li {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.acordeon-grados .accordion-body hr {
+    border-color: #ddd;
+    margin: 22px 0;
+}
+
+
+.acordeon-grados .accordion-button:hover {
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 576px) {
+    .acordeon-grados {
+        width: 100%;
+    }
+
+    .acordeon-grados .accordion-button {
+        padding: 18px;
+    }
+
+    .acordeon-grados .accordion-body {
+        padding: 20px;
+    }
+}
+
+.manolo {
+     color: #000000a4 !important; 
+    text-align: center;
+}
+
+
+
+
+.carrusel-grado {
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+.carrusel-grado .carousel-item {
+    height: 430px;
+    position: relative;
+}
+
+.carrusel-grado .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.texto-carrusel {
+    position: absolute;
+    bottom: 55px;
+    left: 9%;
+    right: 12%;
+    color: white;
+}
+
+.texto-carrusel span {
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.texto-carrusel h3 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.texto-carrusel p {
+    max-width: 600px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+    .carrusel-grado .carousel-item {
+        height: 350px;
+    }
+
+    .texto-carrusel h3 {
+        font-size: 24px;
+    }
+
+    .texto-carrusel p {
+        font-size: 13px;
+    }
+}
+
+
+.subtitulo-conclusion {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,.7);
+}
+
+.titulo-conclusion {
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    margin: 12px 0;
+}
+
+.conclusion-item {
+    background: rgba(255,255,255,.88);
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    color: #222;
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    transition: transform .3s;
+}
+
+.conclusion-item:hover {
+    transform: translateY(-6px);
+}
+
+.conclusion-item .card-body {
+    padding: 28px;
+}
+
+.numero-conclusion {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #777;
+}
+
+.conclusion-item h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.tipo-conclusion {
+    font-size: 13px;
+    font-weight: 600;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.conclusion-item p:last-child {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.conclusion-final {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 25px;
+}
+
+.conclusion-final h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.conclusion-final p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(255,255,255,.8);
+}
+
+@media (max-width: 576px) {
+    .titulo-conclusion {
+        font-size: 32px;
+    }
+}
+
+
+.introduccion {
+    max-width: 750px;
+    margin: 35px auto 60px;
+    padding: 0 20px;
+    color: white;
+}
+
+.introduccion p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+a {
+    color: black;
 }
