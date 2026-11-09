@@ -120,10 +120,10 @@
 }
 
 .contenido {
+    flex: 1 0 auto;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
-
 
 
 .backpages {
@@ -419,4 +419,104 @@
 
 a {
     color: black;
+}
+
+.sadiq {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background: transparent;
+    margin-top: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.sadiq p {
+    margin: 0;
+}
+
+.backindex, .backpages {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+<!--adaptacion de no se-->
+
+
+/* RESPONSIVE */
+
+.title {
+    font-size: clamp(30px, 5vw, 60px);
+}
+
+.raya {
+    width: 85%;
+}
+
+.cristal, .cristaly {
+    width: fit-content;
+    max-width: 95%;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.table-responsive {
+    width: 95%;
+    overflow-x: auto;
+}
+
+.carrusel-grado {
+    width: 95%;
+}
+
+.texto-carrusel {
+    bottom: 25px;
+}
+
+#offcanvasRight {
+    width: min(420px, 90vw);
+}
+
+/* MÓVILES */
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .cristal .nav-link,
+    .cristaly .nav-link {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .carrusel-grado .carousel-item {
+        height: 520px;
+    }
+
+    .texto-carrusel h3 {
+        font-size: 22px;
+    }
+
+    .texto-carrusel p {
+        font-size: 12px;
+    }
+
+    .titulo-conclusion {
+        font-size: 30px;
+    }
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
