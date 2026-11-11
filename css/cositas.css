@@ -27,8 +27,8 @@
     width: 80%;
     margin: 30px auto;
     border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 
@@ -107,6 +107,10 @@
     width: 100%;
     overflow: hidden;
     color: white;
+}
+
+.backindex .contenido {
+    padding-top: 15vh;
 }
 
 .video-fondo {
